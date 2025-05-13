@@ -7,11 +7,11 @@ It simulates key user interactions on the e-commerce platform such as searching,
 
 ## 📂 Project Structure
 
-├── fixtures/ # Reusable authentication and setup logic
-├── pages/ # Page Object Model for each screen
-├── tests/ # Test cases organized by feature
-├── utils/ # Helper utilities (coming soon)
-├── playwright.config.ts # Playwright configuration
+├── fixtures/ # Reusable authentication and setup logic, 
+├── pages/ # Page Object Model for each screen, 
+├── tests/ # Test cases organized by feature, 
+├── utils/ # Helper utilities (coming soon), 
+├── playwright.config.ts # Playwright configuration, 
 └── package.json
 
 ## ✅ Features Covered
@@ -34,13 +34,14 @@ npm install
 ### 3. Run tests
 npx playwright test
 
-📈 Work in Progress
+## 📈 Work in Progress
+
  - API Testing using Playwright request or SuperTest
  - Additional negative and edge case coverage
  - CI Integration (GitHub Actions)
  - Test data management and cleanup
 
-📬 Contact
+## 📬 Contact
 Feel free to reach out or open an issue if you'd like to contribute or ask questions!
 
 Made with ❤️ by @alineslopes
