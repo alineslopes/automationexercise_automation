@@ -41,6 +41,32 @@ npx playwright test
  - CI Integration (GitHub Actions)
  - Test data management and cleanup
 
+## 🤝 Contract Testing with Pact
+
+This project also includes **Consumer-Driven Contract Tests** using [Pact JS](https://docs.pact.io/). Contract testing helps ensure that the frontend (consumer) and backend (provider) agree on the structure and content of API requests and responses.
+
+### 🔍 What is Pact?
+
+[Pact](https://docs.pact.io/) is a testing tool for **service communication contracts**. It verifies that the frontend sends requests in the expected format and that the backend responds accordingly. This reduces the risk of integration issues between services.
+
+### 📁 Location
+
+Contract tests are located under:
+
+tests/contract-tests/consumer/
+└── order.consumer.pact.test.js
+
+
+### 🚀 How to Run
+
+Install dependencies if needed:
+
+```bash
+npm install
+
+npm run test:contract
+
+
 ## 📬 Contact
 Feel free to reach out or open an issue if you'd like to contribute or ask questions!
 

@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:contract": "jest tests/contract-tests/consumer"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
+    "@pact-foundation/pact": "^15.0.1",
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.17"
+    "@types/node": "^22.15.17",
+    "axios": "^1.9.0",
+    "jest": "^29.7.0"
   },
   "dependencies": {
     "@faker-js/faker": "^9.8.0"
